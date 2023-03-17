@@ -24,7 +24,7 @@
 		
 		
 		/* STEP 3: Store the URL of a JSON file in a variable */
-		var requestURL = 'https://iamamz.github.io/JSON-LH/js/i-scream.js';
+		var requestURL = 'https://iamamz.github.io/JSON-LH/js/i-scream.json';
 		/* STEP 4: Create a new XHR object */
 		var request = new XMLHttpRequest();
 
@@ -37,7 +37,7 @@
 		request.send();
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
 		request.addEventListener('load',function(){
-			var isScream = request.response();
+			var isScream = request.response;
 			console.log(isScream)
 		})
 		/* STEP 9: Build out the populateHeader() function */
