@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "pustaccio haven",
+      "calories": 500,
+      "type": "ice cream",
+      "ingredients": [
+        "pustaccio",
+        "milk",
+        "candy sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Kinder Candy",
+      "calories": 500,
+      "type": "crunchy snack",
+      "ingredients": [
+        "Kinder candy",
+        "chocolate milk",
+        "nuts"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
