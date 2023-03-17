@@ -34,9 +34,12 @@
 		/* STEP 6: Set JavaScript to accept JSON from the server */
 		request.responseType = 'json';
 		/* STEP 7: Send the request with the send() method */
-
+		request.send();
 		/* STEP 8: Add an event handler that listens for the onload event of the JSON file/object */
-
+		request.addEventListener('load',function(){
+			var isScream = request.response();
+			console.log(isScream)
+		})
 		/* STEP 9: Build out the populateHeader() function */
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
